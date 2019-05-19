@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsonParse.Api.Repository.Contract\JsonParse.Api.Repository.Contract.csproj" />
+    <ProjectReference Include="..\JsonParse.Api.Services.Contract\JsonParse.Api.Services.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParse.App", "JsonParse.App\JsonParse.App.csproj", "{772A31B9-0654-47CB-AB26-33C013320C75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParse.App.Services", "JsonParse.App.Service\JsonParse.App.Services.csproj", "{C82AB1DF-7A18-47EC-8F1D-A0D433C2BFE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParse.App.Repository", "JsonParse.App.Repository\JsonParse.App.Repository.csproj", "{099DD2DC-10F9-484E-9F02-471C7A9D6CFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParse.App.Repository.Contract", "JsonParse.App.Repository.Contract\JsonParse.App.Repository.Contract.csproj", "{0D8059F8-64EF-493B-B9D0-368051C53DF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParse.App.Services.Contract", "JsonParse.App.Services.Contract\JsonParse.App.Services.Contract.csproj", "{6A79F41E-BC87-4B9D-8602-6DF565372222}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParse.Api.Models", "JsonParse.Api.Models\JsonParse.Api.Models.csproj", "{24DD2C37-2B80-4A37-8112-9E58B0DC4301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{772A31B9-0654-47CB-AB26-33C013320C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772A31B9-0654-47CB-AB26-33C013320C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772A31B9-0654-47CB-AB26-33C013320C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772A31B9-0654-47CB-AB26-33C013320C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82AB1DF-7A18-47EC-8F1D-A0D433C2BFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82AB1DF-7A18-47EC-8F1D-A0D433C2BFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82AB1DF-7A18-47EC-8F1D-A0D433C2BFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82AB1DF-7A18-47EC-8F1D-A0D433C2BFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099DD2DC-10F9-484E-9F02-471C7A9D6CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099DD2DC-10F9-484E-9F02-471C7A9D6CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099DD2DC-10F9-484E-9F02-471C7A9D6CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099DD2DC-10F9-484E-9F02-471C7A9D6CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D8059F8-64EF-493B-B9D0-368051C53DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8059F8-64EF-493B-B9D0-368051C53DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8059F8-64EF-493B-B9D0-368051C53DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8059F8-64EF-493B-B9D0-368051C53DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A79F41E-BC87-4B9D-8602-6DF565372222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A79F41E-BC87-4B9D-8602-6DF565372222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A79F41E-BC87-4B9D-8602-6DF565372222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A79F41E-BC87-4B9D-8602-6DF565372222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DD2C37-2B80-4A37-8112-9E58B0DC4301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DD2C37-2B80-4A37-8112-9E58B0DC4301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DD2C37-2B80-4A37-8112-9E58B0DC4301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DD2C37-2B80-4A37-8112-9E58B0DC4301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80FCA996-82D7-425A-A112-B1DED26D9739}
+	EndGlobalSection
+EndGlobal

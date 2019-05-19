@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsonParse.Api.Models\JsonParse.Api.Models.csproj" />
+    <ProjectReference Include="..\JsonParse.Api.Repository.Contract\JsonParse.Api.Repository.Contract.csproj" />
+    <ProjectReference Include="..\JsonParse.Api.Repository\JsonParse.Api.Repository.csproj" />
+    <ProjectReference Include="..\JsonParse.Api.Services.Contract\JsonParse.Api.Services.Contract.csproj" />
+    <ProjectReference Include="..\JsonParse.Api.Services\JsonParse.Api.Services.csproj" />
+  </ItemGroup>
+
+</Project>
